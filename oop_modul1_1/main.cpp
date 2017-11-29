@@ -38,7 +38,7 @@ int main() {
 
 	Array c = a;
 	cout << "C: " << c << endl;
-	cout << "Compare A and C: ";
+	cout << "Compare A and C: "; 
 	cout << (a == c) << endl;
 
 
