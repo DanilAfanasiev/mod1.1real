@@ -117,10 +117,6 @@ istream& operator >> (istream& s,Array arr) {
 	return s;
 }
 
-istream & operator>>(istream &, Array &)
-{
-	// TODO: insert return statement here
-}
 
 ostream& operator<< (ostream& s, const Array& arr) {
 	if (arr.size == 0) {

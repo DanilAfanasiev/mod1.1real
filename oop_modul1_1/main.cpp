@@ -5,11 +5,11 @@ using namespace std;
 
 int main() {
 
-	int mas1[] = { 0, 1, 2, 3, 4 };
-	int mas2[] = { 3, 4, 5, 6, 7 };
+	int arr1[] = { 0, 1, 2, 3, 4 };
+	int arr2[] = { 2, 3, 4, 0, 1 };
 
-	Array a(mas1, 5);
-	Array b(mas2, 5);
+	Array a(arr1, 0);
+	Array b(arr2, 0);
 
 	cout << "A: " << a << endl;
 	cout << "B: " << b << endl;
@@ -17,20 +17,20 @@ int main() {
 	cout << "Sum test: ";
 	cout << a + b << endl;
 
-	cout << "Add 8 to A: ";
-	a += 8;
+	cout << "Add 5 to A: ";
+	a += 5;
 	cout << a << endl;
 
 	cout << "Add 0 to A: ";
-	a += 8;
+	a += 0;
 	cout << a << endl;
 
 	cout << "Sub 0 from A: ";
 	a -= 0;
 	cout << a << endl;
 
-	cout << "Sub 12 from A: ";
-	a -= 12;
+	cout << "Sub 3 from A: ";
+	a -= 3;
 	cout << a << endl;
 
 	cout << "Compare A and B: ";

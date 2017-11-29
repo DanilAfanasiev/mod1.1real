@@ -17,7 +17,6 @@ public:
 	Array operator =(const Array&);
 	bool operator ==(const Array&);
 
-	friend istream& operator >> (istream& ,Array&);
 	friend ostream& operator<< (ostream& ,const Array&);
 
 private:
